@@ -100,8 +100,8 @@ width:410px;
 }
 
 /*이벤트 슬라이드*/
-* {margin:0;padding:0;box-sizing:border-box;}
-ul, li {list-style:none;}
+.slidebox {margin:0;padding:0;box-sizing:border-box;}
+.slidebox ul li {list-style:none;}
 
 [name="slide"] {display:none;}
 .slidebox {max-width:2000px;width:100%;margin:0 auto;text-align:center; margin-top:20px;}
