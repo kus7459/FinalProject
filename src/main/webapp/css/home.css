@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* 상단바*/
+/*상단바*/
 .top{
 	height : 110px;
 	margin-bottom:0px;
@@ -35,47 +35,40 @@
 .top-right li{
 	display:inline;
 }
- /*카테고리 부분*/
-.menu{
-	display:flex;
-	flex-grow:1;
-	text-align:center;
-	justify-content: space-around;
+/*카테고리*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#FFDAB9;
+    text-align:center;
 }
-.menu ul{
-	background-color: #FFDAB9;
-	list-style:none;
-	margin : 0;
-	padding: 0;
-	overflow:hidden;
-	text-align:center;
+.menu ul:after{
+    content:'';
+    display: block;
+    clear:both;
 }
-.menu li{
-	float:left;
-	display:inline;
-	width:100px;
-	margin: 0px 50	px;
+.menu li {
+    
+    display:inline-block;
 }
-.menu a{
-	display:inline-block;
-	background-color:#FFDAB9;
-	color:#000000;
-	padding:8px;
-	text-decoration : none;
-	text-align:center;
-	font-weight :bold;
+.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-.menu a:hover{
-	background-color: #CD853F;
+.menu li a:hover {
+    background-color: #CD853F;
 }
 
-/* 이미지 슬라이드 부분*/
-
+/*이벤트 슬라이드*/
 * {margin:0;padding:0;box-sizing:border-box;}
 ul, li {list-style:none;}
 
 [name="slide"] {display:none;}
-.slidebox {max-width:2000px;width:100%;margin:0 auto;text-align:center;}
+.slidebox {max-width:2000px;width:100%;margin:0 auto;text-align:center; margin-top:20px;}
 .slidebox img {max-width:100%;}
 .slidebox .slidelist {
 	white-space:nowrap;
@@ -170,4 +163,3 @@ label.right {
 	98% {left:100%;}
 	100% {left:0%;}
 }
-
