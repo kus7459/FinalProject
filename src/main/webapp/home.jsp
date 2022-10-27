@@ -14,7 +14,7 @@
 <body>
 <div class="top">
 	<div class="top-left">
-	<img src="image/Logo.PNG">
+	<a href="home.jsp"><img src="image/Logo.PNG"></a>
      </div>
 	<div class="search-box">
   <form action="." method="post">
@@ -25,8 +25,8 @@
     </div>
     <div class="top-right">
     	<ul>
-    		<li>로그인</li>
-    		<li>회원가입</li>
+    		<li><a href="Login.jsp">로그인</a></li>
+    		<li><a href="Join.jsp">회원가입</a></li>
     		<li>마이 페이지</li>
     		<li>장바구니</li>
     	</ul>

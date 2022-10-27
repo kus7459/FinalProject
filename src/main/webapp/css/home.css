@@ -72,6 +72,10 @@ width:410px;
 	display:inline;
 	margin-right : 15px;
 }
+.top-right li a{
+	text-decoration: none;
+    color: inherit;
+}
 /*카테고리*/
 .menu ul {
     list-style-type: none;
