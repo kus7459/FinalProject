@@ -109,13 +109,15 @@ width:410px;
 .slidebox ul li {list-style:none;}
 
 [name="slide"] {display:none;}
-.slidebox {max-width:2000px;width:100%;margin:0 auto;text-align:center; margin-top:20px;}
+.slidebox {max-width:1800px;width:100%;margin:0 auto;text-align:center; margin-top:20px;}
 .slidebox img {max-width:100%;}
 .slidebox .slidelist {
 	white-space:nowrap;
 	font-size:0;
 	overflow:hidden;
+	padding-left:0px;
 }
+
 .slidebox .slideitem {
 	position:relative;
 	display:inline-block;
@@ -128,7 +130,7 @@ width:410px;
 	z-index:1;
 	top:50%;
 	transform:translateY(-50%);
-	padding:20px;
+	padding:10px;
 	border-radius:50%;
 	cursor:pointer;
 }

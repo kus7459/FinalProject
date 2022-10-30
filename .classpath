@@ -13,5 +13,8 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/app/kus74/product/21c/dbhomeXE/jdbc/lib/ojdbc11.jar"/>
+	<classpathentry kind="var" path="OracleDB"/>
+	<classpathentry kind="lib" path="C:/java/project/test/src/main/webapp/WEB-INF/lib/ojdbc11.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
