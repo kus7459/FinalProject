@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" type="text/css" href="css/test1.css">
+<link rel="stylesheet" type="text/css" href="css/header.css">
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 <body>
 <div class="top">
 	<div class="top-left">
-	<img src="image/Logo.PNG">
+	<a href="home.jsp"><img src="image/Logo.PNG"></a>
      </div>
 	<div class="search-box">
   <form action="." method="post">
@@ -26,7 +26,7 @@
     <div class="top-right">
     	<ul>
     		<li><a href="Login.jsp">로그인</a></li>
-    		<li><a href="SignUp.jsp">회원가입</a></li>
+    		<li><a href="Join.jsp">회원가입</a></li>
     		<li>마이 페이지</li>
     		<li>장바구니</li>
     	</ul>

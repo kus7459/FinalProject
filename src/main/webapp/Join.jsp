@@ -12,37 +12,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div class="top">
-	<div class="top-left">
-	<img src="image/Logo.PNG">
-     </div>
-	<div class="search-box">
-  <form action="." method="post">
-      <input class="search-txt" type="text" placeholder="검색">
-    <button class="search-btn" type="submit">
-  <i class="fas fa-search"></i> </button>
-  </form>
-    </div>
-    <div class="top-right">
-    	<ul>
-    		<li><a href="Login.jsp">로그인</a></li>
-    		<li><a href="Join.jsp">회원가입</a></li>
-    		<li>마이 페이지</li>
-    		<li>장바구니</li>
-    	</ul>
-    </div>
-</div>
-<div class="menu">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-    </div>
+<%@ include file="header.jsp" %>
 <div class="con">
     <div class="login">
     <div class="login_form"><!--로그인 폼-->

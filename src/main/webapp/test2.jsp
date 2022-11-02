@@ -13,6 +13,7 @@
 </head>
 <body>
 
+<%@ include file="header.jsp" %>
 <div class="menu">
     <ul>
       <li><a href="#home">Home</a></li>
